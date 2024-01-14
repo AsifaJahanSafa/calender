@@ -1,0 +1,176 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>calender</title>
+    <style>
+    .new_year{
+        margin-top: 200px;
+         display:flex;
+         left:20px;
+         justify-content: space-evenly;
+         position: relative;
+     }
+    .new_year h1{
+        text-align: center;
+        position: absolute;
+        top:-200px;
+        font-size: 80px;
+     font-weight: 900px;
+ color:red}
+         .january-container{
+             max-width: 500px;
+             max-height: 1000px;
+             border:1px solid black;
+             padding:20px
+ 
+         }
+         .january-container h3{font-size: 40px;
+         text-align: center;
+     
+     }
+         .calender-container{
+             display: grid;
+             grid-template-columns:repeat(7,50px);
+             grid-template-rows:repeat(5,50px);
+             gap:20px;
+            position: relative;
+            
+             justify-content: center;
+             padding:10px 0px;
+             margin:0px auto;
+             box-shadow: 20PX 2OPX 0PX SOLID RED
+         }
+         .day,.date{
+            
+             max-width: 200px;
+             max-height:100%;
+             display: flex;
+             justify-content: center;
+             align-items: center;
+             font-size: 35px;
+             background-color:darkturquoise;
+ 
+             
+         
+         
+         }   
+         .day{
+             grid-template-rows:100px repeat(5,50px);
+             font-size: 15px; 
+             font-weight: 600;
+             background-color: white;
+         }
+          .day:nth-child(7n+5){
+            background:red;
+            color:white
+         }
+         .day:nth-child(7n+6){
+            background:red;
+            color:white
+         }
+         .date:nth-child(7n+5){
+            background:red;
+            color:white
+         }
+ 
+         .date:nth-child(7n+6){
+            background:red;
+            color:white
+         }
+     </style>
+ </head>
+ <section class="new_year">
+ <h1>2024</h1>
+ 
+ <div class="january-container">
+ <h3>January</h3>
+ <div class="calender-container">
+     <div class="day">Mon</div>
+     <div class="day">Tue</div>
+     <div class="day">Wed</div>
+     <div class="day">Thur</div>
+     <div class="day">Fri</div>
+     <div class="day">Sat</div>
+     <div class="day">Sun</div>
+     <div class="date">1</div>
+     <div class="date">2</div>
+     <div class="date">3</div>
+     <div class="date">4</div>
+     <div class="date">5</div>
+     <div class="date">6</div>
+     <div class="date">7</div>
+     <div class="date">8</div>
+     <div class="date">9</div>
+     <div class="date">10</div>
+     <div class="date">11</div>
+     <div class="date">12</div>
+     <div class="date">13</div>
+     <div class="date">14</div>
+     <div class="date">15</div>
+     <div class="date">16</div>
+     <div class="date">17</div>
+     <div class="date">18</div>
+     <div class="date">19</div>
+     <div class="date">20</div>
+     <div class="date">21</div>
+     <div class="date">22</div>
+     <div class="date">23</div>
+     <div class="date">24</div>
+     <div class="date">25</div>
+     <div class="date">26</div>
+     <div class="date">27</div>
+     <div class="date">28</div>
+     <div class="date">29</div>
+     <div class="date">30</div>
+     <div class="date">31</div>
+ </div>
+ </div>
+ 
+ <div class="january-container feb">
+     <h3>February</h3>
+     <div class="calender-container">
+         <div class="day">Mon</div>
+         <div class="day">Tue</div>
+         <div class="day">Wed</div>
+         <div class="day">Thur</div>
+         <div class="day">Fri</div>
+         <div class="day">Sat</div>
+         <div class="day">Sun</div>
+         <div class="date">1</div>
+         <div class="date">2</div>
+         <div class="date">3</div>
+         <div class="date">4</div>
+         <div class="date">5</div>
+         <div class="date">6</div>
+         <div class="date">7</div>
+         <div class="date">8</div>
+         <div class="date">9</div>
+         <div class="date">10</div>
+         <div class="date">11</div>
+         <div class="date">12</div>
+         <div class="date">13</div>
+         <div class="date">14</div>
+         <div class="date">15</div>
+         <div class="date">16</div>
+         <div class="date">17</div>
+         <div class="date">18</div>
+         <div class="date">19</div>
+         <div class="date">20</div>
+         <div class="date">21</div>
+         <div class="date">22</div>
+         <div class="date">23</div>
+         <div class="date">24</div>
+         <div class="date">25</div>
+         <div class="date">26</div>
+         <div class="date">27</div>
+         <div class="date">28</div>
+        
+     </div>
+     </div>
+ </section>
+    
+</body>
+</html>
